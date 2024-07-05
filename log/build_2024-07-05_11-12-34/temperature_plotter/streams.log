@@ -1,0 +1,25 @@
+[0.689s] Invoking command in '/home/cyber/ros2_ws/src/temperature_plotter': PYTHONPATH=/home/cyber/ros2_ws/build/temperature_plotter/prefix_override:/home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_plotter build --build-base /home/cyber/ros2_ws/build/temperature_plotter/build install --record /home/cyber/ros2_ws/build/temperature_plotter/install.log --single-version-externally-managed install_data
+[0.901s] running egg_info
+[0.914s] writing ../../build/temperature_plotter/temperature_plotter.egg-info/PKG-INFO
+[0.916s] writing dependency_links to ../../build/temperature_plotter/temperature_plotter.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../../build/temperature_plotter/temperature_plotter.egg-info/entry_points.txt
+[0.916s] writing requirements to ../../build/temperature_plotter/temperature_plotter.egg-info/requires.txt
+[0.916s] writing top-level names to ../../build/temperature_plotter/temperature_plotter.egg-info/top_level.txt
+[0.943s] reading manifest file '../../build/temperature_plotter/temperature_plotter.egg-info/SOURCES.txt'
+[0.944s] writing manifest file '../../build/temperature_plotter/temperature_plotter.egg-info/SOURCES.txt'
+[0.945s] running build
+[0.945s] running build_py
+[0.945s] copying temperature_plotter/__init__.py -> /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter
+[0.945s] copying temperature_plotter/plot_temperature.py -> /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter
+[0.946s] running install
+[0.950s] running install_lib
+[0.964s] running install_data
+[0.965s] copying resource/temperature_plotter -> /home/cyber/ros2_ws/install/temperature_plotter/share/ament_index/resource_index/packages
+[0.965s] copying package.xml -> /home/cyber/ros2_ws/install/temperature_plotter/share/temperature_plotter
+[0.965s] running install_egg_info
+[0.978s] removing '/home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter-0.0.0-py3.10.egg-info' (and everything under it)
+[0.978s] Copying ../../build/temperature_plotter/temperature_plotter.egg-info to /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter-0.0.0-py3.10.egg-info
+[0.979s] running install_scripts
+[1.150s] Installing plot_temperature script to /home/cyber/ros2_ws/install/temperature_plotter/lib/temperature_plotter
+[1.151s] writing list of installed files to '/home/cyber/ros2_ws/build/temperature_plotter/install.log'
+[1.185s] Invoked command in '/home/cyber/ros2_ws/src/temperature_plotter' returned '0': PYTHONPATH=/home/cyber/ros2_ws/build/temperature_plotter/prefix_override:/home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_plotter build --build-base /home/cyber/ros2_ws/build/temperature_plotter/build install --record /home/cyber/ros2_ws/build/temperature_plotter/install.log --single-version-externally-managed install_data

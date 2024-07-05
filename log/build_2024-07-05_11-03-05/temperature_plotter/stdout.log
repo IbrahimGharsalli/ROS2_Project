@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/temperature_plotter/temperature_plotter.egg-info
+writing ../../build/temperature_plotter/temperature_plotter.egg-info/PKG-INFO
+writing dependency_links to ../../build/temperature_plotter/temperature_plotter.egg-info/dependency_links.txt
+writing entry points to ../../build/temperature_plotter/temperature_plotter.egg-info/entry_points.txt
+writing requirements to ../../build/temperature_plotter/temperature_plotter.egg-info/requires.txt
+writing top-level names to ../../build/temperature_plotter/temperature_plotter.egg-info/top_level.txt
+writing manifest file '../../build/temperature_plotter/temperature_plotter.egg-info/SOURCES.txt'
+reading manifest file '../../build/temperature_plotter/temperature_plotter.egg-info/SOURCES.txt'
+writing manifest file '../../build/temperature_plotter/temperature_plotter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cyber/ros2_ws/build/temperature_plotter/build
+creating /home/cyber/ros2_ws/build/temperature_plotter/build/lib
+creating /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter
+copying temperature_plotter/__init__.py -> /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter
+copying temperature_plotter/plot_temperature.py -> /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter
+running install
+running install_lib
+creating /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter
+copying /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter/__init__.py -> /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter
+copying /home/cyber/ros2_ws/build/temperature_plotter/build/lib/temperature_plotter/plot_temperature.py -> /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter
+byte-compiling /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter/plot_temperature.py to plot_temperature.cpython-310.pyc
+running install_data
+creating /home/cyber/ros2_ws/install/temperature_plotter/share
+creating /home/cyber/ros2_ws/install/temperature_plotter/share/ament_index
+creating /home/cyber/ros2_ws/install/temperature_plotter/share/ament_index/resource_index
+creating /home/cyber/ros2_ws/install/temperature_plotter/share/ament_index/resource_index/packages
+copying resource/temperature_plotter -> /home/cyber/ros2_ws/install/temperature_plotter/share/ament_index/resource_index/packages
+creating /home/cyber/ros2_ws/install/temperature_plotter/share/temperature_plotter
+copying package.xml -> /home/cyber/ros2_ws/install/temperature_plotter/share/temperature_plotter
+running install_egg_info
+Copying ../../build/temperature_plotter/temperature_plotter.egg-info to /home/cyber/ros2_ws/install/temperature_plotter/lib/python3.10/site-packages/temperature_plotter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing plot_temperature script to /home/cyber/ros2_ws/install/temperature_plotter/lib/temperature_plotter
+writing list of installed files to '/home/cyber/ros2_ws/build/temperature_plotter/install.log'

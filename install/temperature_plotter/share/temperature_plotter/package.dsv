@@ -1,0 +1,3 @@
+source;share/temperature_plotter/hook/pythonpath.ps1
+source;share/temperature_plotter/hook/pythonpath.dsv
+source;share/temperature_plotter/hook/pythonpath.sh

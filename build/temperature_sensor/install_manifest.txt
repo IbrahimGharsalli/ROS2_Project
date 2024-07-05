@@ -1,0 +1,16 @@
+/home/cyber/ros2_ws/install/temperature_sensor/lib/temperature_sensor/temperature_publisher
+/home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/package_run_dependencies/temperature_sensor
+/home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/parent_prefix_path/temperature_sensor
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/ament_prefix_path.sh
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/ament_prefix_path.dsv
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/path.sh
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/path.dsv
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.bash
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.sh
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.zsh
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.dsv
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/package.dsv
+/home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/packages/temperature_sensor
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/cmake/temperature_sensorConfig.cmake
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/cmake/temperature_sensorConfig-version.cmake
+/home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/package.xml

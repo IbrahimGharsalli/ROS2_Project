@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target temperature_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable temperature_publisher[0m
+[100%] Built target temperature_publisher
+-- Install configuration: ""
+-- Installing: /home/cyber/ros2_ws/install/temperature_sensor/lib/temperature_sensor/temperature_publisher
+-- Set runtime path of "/home/cyber/ros2_ws/install/temperature_sensor/lib/temperature_sensor/temperature_publisher" to ""
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/package_run_dependencies/temperature_sensor
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/parent_prefix_path/temperature_sensor
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/path.sh
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/path.dsv
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.bash
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.sh
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.zsh
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.dsv
+-- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/package.dsv
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/packages/temperature_sensor
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/cmake/temperature_sensorConfig.cmake
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/cmake/temperature_sensorConfig-version.cmake
+-- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/package.xml

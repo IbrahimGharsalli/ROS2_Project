@@ -1,0 +1,10 @@
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/uninstall.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/temperature_sensor_uninstall.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/temperature_publisher.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/test.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/edit_cache.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/rebuild_cache.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/list_install_components.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/install.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/install/local.dir
+/home/cyber/ros2_ws/build/temperature_sensor/CMakeFiles/install/strip.dir
