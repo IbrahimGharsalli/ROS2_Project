@@ -1,0 +1,47 @@
+[0.147s] Invoking command in '/home/cyber/ros2_ws/build/temperature_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/temperature_sensor -- -j4 -l4
+[0.265s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.500s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.560s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.570s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.631s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.818s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.867s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.867s] -- Configured cppcheck include dirs: 
+[0.867s] -- Configured cppcheck exclude dirs and/or files: 
+[0.867s] -- Added test 'lint_cmake' to check CMake code style
+[0.867s] -- Added test 'uncrustify' to check C / C++ code style
+[0.868s] -- Configured uncrustify additional arguments: 
+[0.868s] -- Added test 'xmllint' to check XML markup files
+[0.868s] -- Configuring done
+[0.895s] -- Generating done
+[0.900s] -- Build files have been written to: /home/cyber/ros2_ws/build/temperature_sensor
+[0.921s] [35m[1mConsolidate compiler generated dependencies of target temperature_publisher[0m
+[0.934s] [ 50%] [32mBuilding CXX object CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.o[0m
+[5.279s] [100%] [32m[1mLinking CXX executable temperature_publisher[0m
+[5.605s] [100%] Built target temperature_publisher
+[5.613s] Invoked command in '/home/cyber/ros2_ws/build/temperature_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/temperature_sensor -- -j4 -l4
+[5.639s] Invoking command in '/home/cyber/ros2_ws/build/temperature_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/temperature_sensor
+[5.644s] -- Install configuration: ""
+[5.644s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/lib/temperature_sensor/temperature_publisher
+[5.645s] -- Set runtime path of "/home/cyber/ros2_ws/install/temperature_sensor/lib/temperature_sensor/temperature_publisher" to ""
+[5.645s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/package_run_dependencies/temperature_sensor
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/parent_prefix_path/temperature_sensor
+[5.646s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/ament_prefix_path.sh
+[5.646s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/ament_prefix_path.dsv
+[5.646s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/path.sh
+[5.646s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/environment/path.dsv
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.bash
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.sh
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.zsh
+[5.646s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/local_setup.dsv
+[5.646s] -- Installing: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/package.dsv
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/ament_index/resource_index/packages/temperature_sensor
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/cmake/temperature_sensorConfig.cmake
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/cmake/temperature_sensorConfig-version.cmake
+[5.646s] -- Up-to-date: /home/cyber/ros2_ws/install/temperature_sensor/share/temperature_sensor/package.xml
+[5.649s] Invoked command in '/home/cyber/ros2_ws/build/temperature_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/temperature_sensor

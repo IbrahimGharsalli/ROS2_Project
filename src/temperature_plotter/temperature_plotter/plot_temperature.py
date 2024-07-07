@@ -1,4 +1,3 @@
-# ~/ros2_ws/src/temperature_plotter/temperature_plotter/plot_temperature.py
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
@@ -13,7 +12,7 @@ class TemperaturePlotter(Node):
             'temperature',
             self.listener_callback,
             10)
-        self.subscription  # prevent unused variable warning
+        self.subscription  
         self.temperatures = deque(maxlen=100)
         plt.ion()
         self.fig, self.ax = plt.subplots()

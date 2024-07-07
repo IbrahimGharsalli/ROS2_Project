@@ -1,4 +1,4 @@
-// ~/ros2_ws/src/temperature_sensor/src/temperature_publisher.cpp
+
 #include <random>
 #include <chrono>
 #include <memory>
