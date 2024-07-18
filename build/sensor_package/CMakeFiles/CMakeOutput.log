@@ -447,3 +447,55 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11a4a/fast && gmake[1]: Entering directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_11a4a.dir/build.make CMakeFiles/cmTC_11a4a.dir/build
+gmake[2]: Entering directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11a4a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_11a4a.dir/CheckIncludeFile.c.o -c /home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_11a4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11a4a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_11a4a.dir/CheckIncludeFile.c.o -o cmTC_11a4a 
+gmake[2]: Leaving directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_601e8/fast && gmake[1]: Entering directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_601e8.dir/build.make CMakeFiles/cmTC_601e8.dir/build
+gmake[2]: Entering directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_601e8.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_601e8.dir/src.c.o -c /home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_601e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_601e8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_601e8.dir/src.c.o -o cmTC_601e8 
+gmake[2]: Leaving directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/cyber/ros2_ws/build/sensor_package/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

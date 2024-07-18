@@ -197,6 +197,117 @@ sensor_package_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_package_uninstall.dir/build.make CMakeFiles/sensor_package_uninstall.dir/build
 .PHONY : sensor_package_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named temperature_publisher
+
+# Build rule for target.
+temperature_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 temperature_publisher
+.PHONY : temperature_publisher
+
+# fast build rule for target.
+temperature_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temperature_publisher.dir/build.make CMakeFiles/temperature_publisher.dir/build
+.PHONY : temperature_publisher/fast
+
+#=============================================================================
+# Target rules for targets named pressure_publisher
+
+# Build rule for target.
+pressure_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pressure_publisher
+.PHONY : pressure_publisher
+
+# fast build rule for target.
+pressure_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pressure_publisher.dir/build.make CMakeFiles/pressure_publisher.dir/build
+.PHONY : pressure_publisher/fast
+
+#=============================================================================
+# Target rules for targets named humidity_publisher
+
+# Build rule for target.
+humidity_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 humidity_publisher
+.PHONY : humidity_publisher
+
+# fast build rule for target.
+humidity_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/humidity_publisher.dir/build.make CMakeFiles/humidity_publisher.dir/build
+.PHONY : humidity_publisher/fast
+
+src/humidity_publisher.o: src/humidity_publisher.cpp.o
+.PHONY : src/humidity_publisher.o
+
+# target to build an object file
+src/humidity_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/humidity_publisher.dir/build.make CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.o
+.PHONY : src/humidity_publisher.cpp.o
+
+src/humidity_publisher.i: src/humidity_publisher.cpp.i
+.PHONY : src/humidity_publisher.i
+
+# target to preprocess a source file
+src/humidity_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/humidity_publisher.dir/build.make CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.i
+.PHONY : src/humidity_publisher.cpp.i
+
+src/humidity_publisher.s: src/humidity_publisher.cpp.s
+.PHONY : src/humidity_publisher.s
+
+# target to generate assembly for a file
+src/humidity_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/humidity_publisher.dir/build.make CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.s
+.PHONY : src/humidity_publisher.cpp.s
+
+src/pressure_publisher.o: src/pressure_publisher.cpp.o
+.PHONY : src/pressure_publisher.o
+
+# target to build an object file
+src/pressure_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pressure_publisher.dir/build.make CMakeFiles/pressure_publisher.dir/src/pressure_publisher.cpp.o
+.PHONY : src/pressure_publisher.cpp.o
+
+src/pressure_publisher.i: src/pressure_publisher.cpp.i
+.PHONY : src/pressure_publisher.i
+
+# target to preprocess a source file
+src/pressure_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pressure_publisher.dir/build.make CMakeFiles/pressure_publisher.dir/src/pressure_publisher.cpp.i
+.PHONY : src/pressure_publisher.cpp.i
+
+src/pressure_publisher.s: src/pressure_publisher.cpp.s
+.PHONY : src/pressure_publisher.s
+
+# target to generate assembly for a file
+src/pressure_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pressure_publisher.dir/build.make CMakeFiles/pressure_publisher.dir/src/pressure_publisher.cpp.s
+.PHONY : src/pressure_publisher.cpp.s
+
+src/temperature_publisher.o: src/temperature_publisher.cpp.o
+.PHONY : src/temperature_publisher.o
+
+# target to build an object file
+src/temperature_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temperature_publisher.dir/build.make CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.o
+.PHONY : src/temperature_publisher.cpp.o
+
+src/temperature_publisher.i: src/temperature_publisher.cpp.i
+.PHONY : src/temperature_publisher.i
+
+# target to preprocess a source file
+src/temperature_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temperature_publisher.dir/build.make CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.i
+.PHONY : src/temperature_publisher.cpp.i
+
+src/temperature_publisher.s: src/temperature_publisher.cpp.s
+.PHONY : src/temperature_publisher.s
+
+# target to generate assembly for a file
+src/temperature_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/temperature_publisher.dir/build.make CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.s
+.PHONY : src/temperature_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +323,18 @@ help:
 	@echo "... test"
 	@echo "... sensor_package_uninstall"
 	@echo "... uninstall"
+	@echo "... humidity_publisher"
+	@echo "... pressure_publisher"
+	@echo "... temperature_publisher"
+	@echo "... src/humidity_publisher.o"
+	@echo "... src/humidity_publisher.i"
+	@echo "... src/humidity_publisher.s"
+	@echo "... src/pressure_publisher.o"
+	@echo "... src/pressure_publisher.i"
+	@echo "... src/pressure_publisher.s"
+	@echo "... src/temperature_publisher.o"
+	@echo "... src/temperature_publisher.i"
+	@echo "... src/temperature_publisher.s"
 .PHONY : help
 
 

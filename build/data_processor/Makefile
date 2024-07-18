@@ -197,6 +197,43 @@ data_processor_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_processor_uninstall.dir/build.make CMakeFiles/data_processor_uninstall.dir/build
 .PHONY : data_processor_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named sensor_subscriber
+
+# Build rule for target.
+sensor_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_subscriber
+.PHONY : sensor_subscriber
+
+# fast build rule for target.
+sensor_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_subscriber.dir/build.make CMakeFiles/sensor_subscriber.dir/build
+.PHONY : sensor_subscriber/fast
+
+src/sensor_subscriber.o: src/sensor_subscriber.cpp.o
+.PHONY : src/sensor_subscriber.o
+
+# target to build an object file
+src/sensor_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_subscriber.dir/build.make CMakeFiles/sensor_subscriber.dir/src/sensor_subscriber.cpp.o
+.PHONY : src/sensor_subscriber.cpp.o
+
+src/sensor_subscriber.i: src/sensor_subscriber.cpp.i
+.PHONY : src/sensor_subscriber.i
+
+# target to preprocess a source file
+src/sensor_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_subscriber.dir/build.make CMakeFiles/sensor_subscriber.dir/src/sensor_subscriber.cpp.i
+.PHONY : src/sensor_subscriber.cpp.i
+
+src/sensor_subscriber.s: src/sensor_subscriber.cpp.s
+.PHONY : src/sensor_subscriber.s
+
+# target to generate assembly for a file
+src/sensor_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_subscriber.dir/build.make CMakeFiles/sensor_subscriber.dir/src/sensor_subscriber.cpp.s
+.PHONY : src/sensor_subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... data_processor_uninstall"
 	@echo "... uninstall"
+	@echo "... sensor_subscriber"
+	@echo "... src/sensor_subscriber.o"
+	@echo "... src/sensor_subscriber.i"
+	@echo "... src/sensor_subscriber.s"
 .PHONY : help
 
 
