@@ -1,0 +1,6 @@
+Invoking command in '/home/cyber/ros2_ws/build/data_processor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cyber/ros2_ws/src/data_processor -DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/data_processor
+Invoked command in '/home/cyber/ros2_ws/build/data_processor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cyber/ros2_ws/src/data_processor -DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/data_processor
+Invoking command in '/home/cyber/ros2_ws/build/data_processor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/data_processor -- -j4 -l4
+Invoked command in '/home/cyber/ros2_ws/build/data_processor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/data_processor -- -j4 -l4
+Invoking command in '/home/cyber/ros2_ws/build/data_processor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/data_processor
+Invoked command in '/home/cyber/ros2_ws/build/data_processor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/data_processor
