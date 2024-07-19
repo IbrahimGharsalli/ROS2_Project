@@ -1,0 +1,7 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/humidity_publisher.dir/build.make:175: humidity_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/humidity_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

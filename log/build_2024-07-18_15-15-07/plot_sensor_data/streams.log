@@ -1,0 +1,28 @@
+[0.781s] Invoking command in '/home/cyber/ros2_ws/src/plot_sensor_data': PYTHONPATH=/home/cyber/ros2_ws/build/plot_sensor_data/prefix_override:/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/plot_sensor_data build --build-base /home/cyber/ros2_ws/build/plot_sensor_data/build install --record /home/cyber/ros2_ws/build/plot_sensor_data/install.log --single-version-externally-managed install_data
+[0.954s] running egg_info
+[0.966s] writing ../../build/plot_sensor_data/plot_sensor_data.egg-info/PKG-INFO
+[0.966s] writing dependency_links to ../../build/plot_sensor_data/plot_sensor_data.egg-info/dependency_links.txt
+[0.966s] writing entry points to ../../build/plot_sensor_data/plot_sensor_data.egg-info/entry_points.txt
+[0.967s] writing requirements to ../../build/plot_sensor_data/plot_sensor_data.egg-info/requires.txt
+[0.967s] writing top-level names to ../../build/plot_sensor_data/plot_sensor_data.egg-info/top_level.txt
+[1.024s] reading manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'
+[1.025s] writing manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.025s] running build_py
+[1.025s] copying plot_sensor_data/__init__.py -> /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data
+[1.025s] copying plot_sensor_data/plot_node.py -> /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data
+[1.025s] running install
+[1.030s] running install_lib
+[1.042s] copying /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data/plot_node.py -> /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data
+[1.042s] byte-compiling /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data/plot_node.py to plot_node.cpython-310.pyc
+[1.043s] running install_data
+[1.043s] copying resource/plot_sensor_data -> /home/cyber/ros2_ws/install/plot_sensor_data/share/ament_index/resource_index/packages
+[1.043s] copying package.xml -> /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data
+[1.043s] copying launch/plot_launch.py -> /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data/launch
+[1.043s] running install_egg_info
+[1.056s] removing '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data-0.0.0-py3.10.egg-info' (and everything under it)
+[1.056s] Copying ../../build/plot_sensor_data/plot_sensor_data.egg-info to /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data-0.0.0-py3.10.egg-info
+[1.056s] running install_scripts
+[1.164s] Installing plot_node script to /home/cyber/ros2_ws/install/plot_sensor_data/lib/plot_sensor_data
+[1.164s] writing list of installed files to '/home/cyber/ros2_ws/build/plot_sensor_data/install.log'
+[1.189s] Invoked command in '/home/cyber/ros2_ws/src/plot_sensor_data' returned '0': PYTHONPATH=/home/cyber/ros2_ws/build/plot_sensor_data/prefix_override:/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/plot_sensor_data build --build-base /home/cyber/ros2_ws/build/plot_sensor_data/build install --record /home/cyber/ros2_ws/build/plot_sensor_data/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cyber/ros2_ws/src/sensor_package -DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/sensor_package
+Invoked command in '/home/cyber/ros2_ws/build/sensor_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cyber/ros2_ws/src/sensor_package -DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/sensor_package
+Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/sensor_package -- -j4 -l4
+Invoked command in '/home/cyber/ros2_ws/build/sensor_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/sensor_package -- -j4 -l4
+Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/sensor_package
+Invoked command in '/home/cyber/ros2_ws/build/sensor_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/sensor_package
