@@ -1,0 +1,62 @@
+[0.432s] Invoking command in '/home/cyber/ros2_ws/build/rosbridge_server_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake /home/cyber/ros2_ws/src/rosbridge_server_launch -DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/rosbridge_server_launch
+[0.682s] -- The C compiler identification is GNU 11.4.0
+[0.814s] -- The CXX compiler identification is GNU 11.4.0
+[0.825s] -- Detecting C compiler ABI info
+[0.923s] -- Detecting C compiler ABI info - done
+[0.944s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.945s] -- Detecting C compile features
+[0.946s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.067s] -- Detecting CXX compiler ABI info - done
+[1.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.080s] -- Detecting CXX compile features
+[1.081s] -- Detecting CXX compile features - done
+[1.084s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.647s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.782s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.844s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.851s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.863s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.884s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.015s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.018s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.196s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.237s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.324s] -- Looking for pthread.h
+[2.439s] -- Looking for pthread.h - found
+[2.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.575s] -- Found Threads: TRUE  
+[2.809s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.923s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.924s] -- Added test 'lint_cmake' to check CMake code style
+[2.925s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.927s] -- Added test 'xmllint' to check XML markup files
+[2.928s] -- Configuring done
+[2.933s] -- Generating done
+[2.935s] -- Build files have been written to: /home/cyber/ros2_ws/build/rosbridge_server_launch
+[2.947s] Invoked command in '/home/cyber/ros2_ws/build/rosbridge_server_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake /home/cyber/ros2_ws/src/rosbridge_server_launch -DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/rosbridge_server_launch
+[2.949s] Invoking command in '/home/cyber/ros2_ws/build/rosbridge_server_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/rosbridge_server_launch -- -j4 -l4
+[3.005s] Invoked command in '/home/cyber/ros2_ws/build/rosbridge_server_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/rosbridge_server_launch -- -j4 -l4
+[3.036s] Invoking command in '/home/cyber/ros2_ws/build/rosbridge_server_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/rosbridge_server_launch
+[3.046s] -- Install configuration: ""
+[3.047s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch//launch
+[3.047s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch//launch/rosbridge_launch.py
+[3.047s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/ament_index/resource_index/package_run_dependencies/rosbridge_server_launch
+[3.047s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/ament_index/resource_index/parent_prefix_path/rosbridge_server_launch
+[3.048s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/ament_prefix_path.sh
+[3.048s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/ament_prefix_path.dsv
+[3.048s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/path.sh
+[3.048s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/path.dsv
+[3.048s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.bash
+[3.048s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.sh
+[3.049s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.zsh
+[3.049s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.dsv
+[3.049s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/package.dsv
+[3.049s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/ament_index/resource_index/packages/rosbridge_server_launch
+[3.049s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/cmake/rosbridge_server_launchConfig.cmake
+[3.049s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/cmake/rosbridge_server_launchConfig-version.cmake
+[3.050s] -- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/package.xml
+[3.053s] Invoked command in '/home/cyber/ros2_ws/build/rosbridge_server_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/rosbridge_server_launch

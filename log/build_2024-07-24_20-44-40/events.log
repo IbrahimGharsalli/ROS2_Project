@@ -1,0 +1,471 @@
+[0.000000] (-) TimerEvent: {}
+[0.000972] (data_processor) JobQueued: {'identifier': 'data_processor', 'dependencies': OrderedDict()}
+[0.001471] (plot_sensor_data) JobQueued: {'identifier': 'plot_sensor_data', 'dependencies': OrderedDict()}
+[0.001607] (sensor_package) JobQueued: {'identifier': 'sensor_package', 'dependencies': OrderedDict()}
+[0.001660] (data_processor) JobStarted: {'identifier': 'data_processor'}
+[0.022892] (plot_sensor_data) JobStarted: {'identifier': 'plot_sensor_data'}
+[0.034846] (sensor_package) JobStarted: {'identifier': 'sensor_package'}
+[0.045475] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'cmake'}
+[0.074654] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'build'}
+[0.076522] (data_processor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyber/ros2_ws/build/data_processor', '--', '-j4', '-l4'], 'cwd': '/home/cyber/ros2_ws/build/data_processor', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1532'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1497,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1497'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/41206536_a6a5_4977_a9fc_24345c72e099'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RU2RR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/data_processor'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099468] (-) TimerEvent: {}
+[0.200114] (-) TimerEvent: {}
+[0.300680] (-) TimerEvent: {}
+[0.401370] (-) TimerEvent: {}
+[0.501835] (-) TimerEvent: {}
+[0.602503] (-) TimerEvent: {}
+[0.640219] (data_processor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.644158] (data_processor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.644689] (data_processor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.644918] (data_processor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.645131] (data_processor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.645333] (data_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.645582] (data_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.646148] (sensor_package) JobProgress: {'identifier': 'sensor_package', 'progress': 'cmake'}
+[0.647756] (sensor_package) JobProgress: {'identifier': 'sensor_package', 'progress': 'build'}
+[0.648703] (sensor_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyber/ros2_ws/build/sensor_package', '--', '-j4', '-l4'], 'cwd': '/home/cyber/ros2_ws/build/sensor_package', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1532'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1497,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1497'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/41206536_a6a5_4977_a9fc_24345c72e099'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RU2RR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/sensor_package'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.690617] (data_processor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.694899] (data_processor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.702624] (-) TimerEvent: {}
+[0.737150] (sensor_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.802763] (-) TimerEvent: {}
+[0.903287] (-) TimerEvent: {}
+[1.003772] (-) TimerEvent: {}
+[1.088173] (data_processor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.099253] (sensor_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.103894] (-) TimerEvent: {}
+[1.191323] (sensor_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.200056] (sensor_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.204005] (-) TimerEvent: {}
+[1.220025] (sensor_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.259128] (sensor_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304146] (-) TimerEvent: {}
+[1.311561] (sensor_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404278] (-) TimerEvent: {}
+[1.503941] (sensor_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.504284] (-) TimerEvent: {}
+[1.508631] (sensor_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.604434] (-) TimerEvent: {}
+[1.621490] (data_processor) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.704566] (-) TimerEvent: {}
+[1.805214] (-) TimerEvent: {}
+[1.872474] (sensor_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.905357] (-) TimerEvent: {}
+[2.006094] (-) TimerEvent: {}
+[2.048009] (data_processor) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.051116] (data_processor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.106224] (-) TimerEvent: {}
+[2.206893] (-) TimerEvent: {}
+[2.254036] (data_processor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.254720] (data_processor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.254969] (data_processor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.255571] (data_processor) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.256815] (data_processor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.258039] (data_processor) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.259915] (data_processor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.260190] (data_processor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.261608] (data_processor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.263590] (data_processor) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.292286] (data_processor) StdoutLine: {'line': b'-- Generating done\n'}
+[2.298231] (data_processor) StdoutLine: {'line': b'-- Build files have been written to: /home/cyber/ros2_ws/build/data_processor\n'}
+[2.307064] (-) TimerEvent: {}
+[2.345575] (plot_sensor_data) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/plot_sensor_data', 'build', '--build-base', '/home/cyber/ros2_ws/build/plot_sensor_data/build', 'install', '--record', '/home/cyber/ros2_ws/build/plot_sensor_data/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cyber/ros2_ws/src/plot_sensor_data', 'env': {'USER': 'cyber', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/cyber', 'HOME': '/home/cyber', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/cyber/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '1532', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cyber', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'cyber', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1497,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1497', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/41206536_a6a5_4977_a9fc_24345c72e099', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ar_TN.UTF-8', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.187', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RU2RR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/cyber/ros2_ws/build/plot_sensor_data', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'ar_TN.UTF-8', 'PYTHONPATH': '/home/cyber/ros2_ws/build/plot_sensor_data/prefix_override:/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.373142] (data_processor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_subscriber\x1b[0m\n'}
+[2.407194] (-) TimerEvent: {}
+[2.421684] (data_processor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_subscriber.dir/src/sensor_subscriber.cpp.o\x1b[0m\n'}
+[2.509985] (-) TimerEvent: {}
+[2.523051] (sensor_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.610102] (-) TimerEvent: {}
+[2.710686] (-) TimerEvent: {}
+[2.811299] (-) TimerEvent: {}
+[2.906681] (sensor_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.911414] (-) TimerEvent: {}
+[3.012098] (-) TimerEvent: {}
+[3.087853] (sensor_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.088399] (sensor_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.088644] (sensor_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.089261] (sensor_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.090803] (sensor_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.092188] (sensor_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.094067] (sensor_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.094416] (sensor_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.095534] (sensor_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.097480] (sensor_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.112231] (-) TimerEvent: {}
+[3.151694] (plot_sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[3.155804] (sensor_package) StdoutLine: {'line': b'-- Generating done\n'}
+[3.163202] (sensor_package) StdoutLine: {'line': b'-- Build files have been written to: /home/cyber/ros2_ws/build/sensor_package\n'}
+[3.212388] (-) TimerEvent: {}
+[3.225406] (plot_sensor_data) StdoutLine: {'line': b'writing ../../build/plot_sensor_data/plot_sensor_data.egg-info/PKG-INFO\n'}
+[3.227455] (plot_sensor_data) StdoutLine: {'line': b'writing dependency_links to ../../build/plot_sensor_data/plot_sensor_data.egg-info/dependency_links.txt\n'}
+[3.229188] (plot_sensor_data) StdoutLine: {'line': b'writing entry points to ../../build/plot_sensor_data/plot_sensor_data.egg-info/entry_points.txt\n'}
+[3.229800] (plot_sensor_data) StdoutLine: {'line': b'writing requirements to ../../build/plot_sensor_data/plot_sensor_data.egg-info/requires.txt\n'}
+[3.230170] (plot_sensor_data) StdoutLine: {'line': b'writing top-level names to ../../build/plot_sensor_data/plot_sensor_data.egg-info/top_level.txt\n'}
+[3.232895] (sensor_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target temperature_publisher\x1b[0m\n'}
+[3.274151] (sensor_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target humidity_publisher\x1b[0m\n'}
+[3.278959] (sensor_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pressure_publisher\x1b[0m\n'}
+[3.312526] (-) TimerEvent: {}
+[3.325717] (sensor_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.o\x1b[0m\n'}
+[3.334459] (sensor_package) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.o\x1b[0m\n'}
+[3.397174] (sensor_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pressure_publisher.dir/src/pressure_publisher.cpp.o\x1b[0m\n'}
+[3.412655] (-) TimerEvent: {}
+[3.513296] (-) TimerEvent: {}
+[3.613941] (-) TimerEvent: {}
+[3.714563] (-) TimerEvent: {}
+[3.815178] (-) TimerEvent: {}
+[3.915675] (-) TimerEvent: {}
+[3.965539] (plot_sensor_data) StdoutLine: {'line': b"reading manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'\n"}
+[3.973766] (plot_sensor_data) StdoutLine: {'line': b"writing manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'\n"}
+[3.975826] (plot_sensor_data) StdoutLine: {'line': b'running build\n'}
+[3.976118] (plot_sensor_data) StdoutLine: {'line': b'running build_py\n'}
+[3.976296] (plot_sensor_data) StdoutLine: {'line': b'copying plot_sensor_data/__init__.py -> /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data\n'}
+[3.976465] (plot_sensor_data) StdoutLine: {'line': b'copying plot_sensor_data/plot_node.py -> /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data\n'}
+[3.985684] (plot_sensor_data) StdoutLine: {'line': b'running install\n'}
+[4.015813] (-) TimerEvent: {}
+[4.044196] (plot_sensor_data) StdoutLine: {'line': b'running install_lib\n'}
+[4.115953] (-) TimerEvent: {}
+[4.209094] (plot_sensor_data) StdoutLine: {'line': b'copying /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data/plot_node.py -> /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data\n'}
+[4.209638] (plot_sensor_data) StdoutLine: {'line': b'byte-compiling /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data/plot_node.py to plot_node.cpython-310.pyc\n'}
+[4.216096] (-) TimerEvent: {}
+[4.222191] (plot_sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[4.222531] (plot_sensor_data) StdoutLine: {'line': b'copying resource/plot_sensor_data -> /home/cyber/ros2_ws/install/plot_sensor_data/share/ament_index/resource_index/packages\n'}
+[4.222691] (plot_sensor_data) StdoutLine: {'line': b'copying package.xml -> /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data\n'}
+[4.222901] (plot_sensor_data) StdoutLine: {'line': b'copying launch/plot_launch.py -> /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data/launch\n'}
+[4.229859] (plot_sensor_data) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.316234] (-) TimerEvent: {}
+[4.395344] (plot_sensor_data) StdoutLine: {'line': b"removing '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.398307] (plot_sensor_data) StdoutLine: {'line': b'Copying ../../build/plot_sensor_data/plot_sensor_data.egg-info to /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data-0.0.0-py3.10.egg-info\n'}
+[4.407389] (plot_sensor_data) StdoutLine: {'line': b'running install_scripts\n'}
+[4.417932] (-) TimerEvent: {}
+[4.518592] (-) TimerEvent: {}
+[4.619282] (-) TimerEvent: {}
+[4.708451] (plot_sensor_data) StdoutLine: {'line': b'Installing plot_node script to /home/cyber/ros2_ws/install/plot_sensor_data/lib/plot_sensor_data\n'}
+[4.709480] (plot_sensor_data) StdoutLine: {'line': b"writing list of installed files to '/home/cyber/ros2_ws/build/plot_sensor_data/install.log'\n"}
+[4.719442] (-) TimerEvent: {}
+[4.818590] (plot_sensor_data) CommandEnded: {'returncode': 0}
+[4.819491] (-) TimerEvent: {}
+[4.871982] (plot_sensor_data) JobEnded: {'identifier': 'plot_sensor_data', 'rc': 0}
+[4.919656] (-) TimerEvent: {}
+[5.024053] (-) TimerEvent: {}
+[5.131401] (-) TimerEvent: {}
+[5.232100] (-) TimerEvent: {}
+[5.332819] (-) TimerEvent: {}
+[5.433543] (-) TimerEvent: {}
+[5.534225] (-) TimerEvent: {}
+[5.634924] (-) TimerEvent: {}
+[5.735645] (-) TimerEvent: {}
+[5.836848] (-) TimerEvent: {}
+[5.937587] (-) TimerEvent: {}
+[6.039452] (-) TimerEvent: {}
+[6.140144] (-) TimerEvent: {}
+[6.242119] (-) TimerEvent: {}
+[6.342796] (-) TimerEvent: {}
+[6.443477] (-) TimerEvent: {}
+[6.544190] (-) TimerEvent: {}
+[6.647506] (-) TimerEvent: {}
+[6.748186] (-) TimerEvent: {}
+[6.850118] (-) TimerEvent: {}
+[6.950799] (-) TimerEvent: {}
+[7.055424] (-) TimerEvent: {}
+[7.156136] (-) TimerEvent: {}
+[7.258393] (-) TimerEvent: {}
+[7.359190] (-) TimerEvent: {}
+[7.461547] (-) TimerEvent: {}
+[7.562208] (-) TimerEvent: {}
+[7.672019] (-) TimerEvent: {}
+[7.772704] (-) TimerEvent: {}
+[7.874085] (-) TimerEvent: {}
+[7.974751] (-) TimerEvent: {}
+[8.076942] (-) TimerEvent: {}
+[8.177687] (-) TimerEvent: {}
+[8.282113] (-) TimerEvent: {}
+[8.382778] (-) TimerEvent: {}
+[8.483449] (-) TimerEvent: {}
+[8.584146] (-) TimerEvent: {}
+[8.686408] (-) TimerEvent: {}
+[8.787081] (-) TimerEvent: {}
+[8.892037] (-) TimerEvent: {}
+[8.992725] (-) TimerEvent: {}
+[9.093441] (-) TimerEvent: {}
+[9.194162] (-) TimerEvent: {}
+[9.296271] (-) TimerEvent: {}
+[9.396947] (-) TimerEvent: {}
+[9.497632] (-) TimerEvent: {}
+[9.598309] (-) TimerEvent: {}
+[9.701016] (-) TimerEvent: {}
+[9.801692] (-) TimerEvent: {}
+[9.902362] (-) TimerEvent: {}
+[10.003045] (-) TimerEvent: {}
+[10.105113] (-) TimerEvent: {}
+[10.209389] (-) TimerEvent: {}
+[10.310698] (-) TimerEvent: {}
+[10.411357] (-) TimerEvent: {}
+[10.513409] (-) TimerEvent: {}
+[10.621636] (-) TimerEvent: {}
+[10.722194] (-) TimerEvent: {}
+[10.822853] (-) TimerEvent: {}
+[10.923582] (-) TimerEvent: {}
+[11.029917] (-) TimerEvent: {}
+[11.130555] (-) TimerEvent: {}
+[11.231203] (-) TimerEvent: {}
+[11.331778] (-) TimerEvent: {}
+[11.432455] (-) TimerEvent: {}
+[11.533183] (-) TimerEvent: {}
+[11.633935] (-) TimerEvent: {}
+[11.734705] (-) TimerEvent: {}
+[11.835424] (-) TimerEvent: {}
+[11.936131] (-) TimerEvent: {}
+[12.036807] (-) TimerEvent: {}
+[12.137554] (-) TimerEvent: {}
+[12.238263] (-) TimerEvent: {}
+[12.338964] (-) TimerEvent: {}
+[12.439700] (-) TimerEvent: {}
+[12.550921] (-) TimerEvent: {}
+[12.651623] (-) TimerEvent: {}
+[12.752201] (-) TimerEvent: {}
+[12.852781] (-) TimerEvent: {}
+[12.953499] (-) TimerEvent: {}
+[13.054231] (-) TimerEvent: {}
+[13.155067] (-) TimerEvent: {}
+[13.255782] (-) TimerEvent: {}
+[13.356367] (-) TimerEvent: {}
+[13.456941] (-) TimerEvent: {}
+[13.557651] (-) TimerEvent: {}
+[13.658392] (-) TimerEvent: {}
+[13.759094] (-) TimerEvent: {}
+[13.861627] (-) TimerEvent: {}
+[13.962307] (-) TimerEvent: {}
+[14.063036] (-) TimerEvent: {}
+[14.164159] (-) TimerEvent: {}
+[14.264903] (-) TimerEvent: {}
+[14.365455] (-) TimerEvent: {}
+[14.466020] (-) TimerEvent: {}
+[14.566757] (-) TimerEvent: {}
+[14.667503] (-) TimerEvent: {}
+[14.768227] (-) TimerEvent: {}
+[14.868918] (-) TimerEvent: {}
+[14.969637] (-) TimerEvent: {}
+[15.070333] (-) TimerEvent: {}
+[15.171065] (-) TimerEvent: {}
+[15.271760] (-) TimerEvent: {}
+[15.372465] (-) TimerEvent: {}
+[15.473191] (-) TimerEvent: {}
+[15.573930] (-) TimerEvent: {}
+[15.674610] (-) TimerEvent: {}
+[15.775301] (-) TimerEvent: {}
+[15.876002] (-) TimerEvent: {}
+[15.976725] (-) TimerEvent: {}
+[16.077398] (-) TimerEvent: {}
+[16.178122] (-) TimerEvent: {}
+[16.278817] (-) TimerEvent: {}
+[16.379538] (-) TimerEvent: {}
+[16.480242] (-) TimerEvent: {}
+[16.580943] (-) TimerEvent: {}
+[16.681661] (-) TimerEvent: {}
+[16.782389] (-) TimerEvent: {}
+[16.883131] (-) TimerEvent: {}
+[16.983815] (-) TimerEvent: {}
+[17.084339] (-) TimerEvent: {}
+[17.185074] (-) TimerEvent: {}
+[17.285811] (-) TimerEvent: {}
+[17.386499] (-) TimerEvent: {}
+[17.487181] (-) TimerEvent: {}
+[17.587901] (-) TimerEvent: {}
+[17.688854] (-) TimerEvent: {}
+[17.789561] (-) TimerEvent: {}
+[17.890265] (-) TimerEvent: {}
+[17.990984] (-) TimerEvent: {}
+[18.092452] (-) TimerEvent: {}
+[18.193204] (-) TimerEvent: {}
+[18.295087] (-) TimerEvent: {}
+[18.395803] (-) TimerEvent: {}
+[18.498206] (-) TimerEvent: {}
+[18.598911] (-) TimerEvent: {}
+[18.700597] (-) TimerEvent: {}
+[18.801269] (-) TimerEvent: {}
+[18.903989] (-) TimerEvent: {}
+[19.004661] (-) TimerEvent: {}
+[19.107451] (-) TimerEvent: {}
+[19.208152] (-) TimerEvent: {}
+[19.311143] (-) TimerEvent: {}
+[19.411700] (-) TimerEvent: {}
+[19.512243] (-) TimerEvent: {}
+[19.612892] (-) TimerEvent: {}
+[19.715141] (-) TimerEvent: {}
+[19.815810] (-) TimerEvent: {}
+[19.925631] (-) TimerEvent: {}
+[20.026445] (-) TimerEvent: {}
+[20.133629] (-) TimerEvent: {}
+[20.237638] (-) TimerEvent: {}
+[20.332675] (sensor_package) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable temperature_publisher\x1b[0m\n'}
+[20.337779] (-) TimerEvent: {}
+[20.438322] (-) TimerEvent: {}
+[20.538874] (-) TimerEvent: {}
+[20.639618] (-) TimerEvent: {}
+[20.740390] (-) TimerEvent: {}
+[20.841156] (-) TimerEvent: {}
+[20.941903] (-) TimerEvent: {}
+[21.042606] (-) TimerEvent: {}
+[21.143472] (-) TimerEvent: {}
+[21.244192] (-) TimerEvent: {}
+[21.344894] (-) TimerEvent: {}
+[21.445634] (-) TimerEvent: {}
+[21.547106] (-) TimerEvent: {}
+[21.548894] (sensor_package) StdoutLine: {'line': b'[ 66%] Built target temperature_publisher\n'}
+[21.647274] (-) TimerEvent: {}
+[21.749426] (-) TimerEvent: {}
+[21.850106] (-) TimerEvent: {}
+[21.950753] (-) TimerEvent: {}
+[22.051441] (-) TimerEvent: {}
+[22.153354] (-) TimerEvent: {}
+[22.254067] (-) TimerEvent: {}
+[22.357007] (-) TimerEvent: {}
+[22.457763] (-) TimerEvent: {}
+[22.561478] (-) TimerEvent: {}
+[22.596042] (sensor_package) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable pressure_publisher\x1b[0m\n'}
+[22.661666] (-) TimerEvent: {}
+[22.762273] (-) TimerEvent: {}
+[22.862876] (-) TimerEvent: {}
+[22.963428] (-) TimerEvent: {}
+[23.063999] (-) TimerEvent: {}
+[23.164539] (-) TimerEvent: {}
+[23.204255] (sensor_package) StdoutLine: {'line': b'[ 83%] Built target pressure_publisher\n'}
+[23.264696] (-) TimerEvent: {}
+[23.341137] (sensor_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable humidity_publisher\x1b[0m\n'}
+[23.364833] (-) TimerEvent: {}
+[23.465315] (-) TimerEvent: {}
+[23.566117] (-) TimerEvent: {}
+[23.666692] (-) TimerEvent: {}
+[23.755053] (sensor_package) StdoutLine: {'line': b'[100%] Built target humidity_publisher\n'}
+[23.766848] (-) TimerEvent: {}
+[23.774721] (sensor_package) CommandEnded: {'returncode': 0}
+[23.866971] (-) TimerEvent: {}
+[23.873405] (sensor_package) JobProgress: {'identifier': 'sensor_package', 'progress': 'install'}
+[23.890141] (sensor_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyber/ros2_ws/build/sensor_package'], 'cwd': '/home/cyber/ros2_ws/build/sensor_package', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1532'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1497,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1497'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/41206536_a6a5_4977_a9fc_24345c72e099'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RU2RR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/sensor_package'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.905748] (sensor_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.914437] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/temperature_publisher\n'}
+[23.916944] (sensor_package) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/temperature_publisher" to ""\n'}
+[23.930377] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/pressure_publisher\n'}
+[23.932571] (sensor_package) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/pressure_publisher" to ""\n'}
+[23.961059] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/humidity_publisher\n'}
+[23.963426] (sensor_package) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/humidity_publisher" to ""\n'}
+[23.963703] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/launch\n'}
+[23.967052] (-) TimerEvent: {}
+[23.976675] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/launch/sensor_launch.py\n'}
+[23.981356] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/package_run_dependencies/sensor_package\n'}
+[23.993777] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/parent_prefix_path/sensor_package\n'}
+[23.994708] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.sh\n'}
+[23.995610] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.dsv\n'}
+[24.026413] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/path.sh\n'}
+[24.027142] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/path.dsv\n'}
+[24.059905] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.bash\n'}
+[24.060455] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.sh\n'}
+[24.060643] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.zsh\n'}
+[24.060762] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.dsv\n'}
+[24.067148] (-) TimerEvent: {}
+[24.070843] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/package.dsv\n'}
+[24.071242] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/packages/sensor_package\n'}
+[24.071633] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig.cmake\n'}
+[24.071818] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig-version.cmake\n'}
+[24.072043] (sensor_package) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/package.xml\n'}
+[24.074619] (sensor_package) CommandEnded: {'returncode': 0}
+[24.149957] (sensor_package) JobEnded: {'identifier': 'sensor_package', 'rc': 0}
+[24.167309] (-) TimerEvent: {}
+[24.267786] (-) TimerEvent: {}
+[24.368241] (-) TimerEvent: {}
+[24.468755] (-) TimerEvent: {}
+[24.569209] (-) TimerEvent: {}
+[24.669677] (-) TimerEvent: {}
+[24.770213] (-) TimerEvent: {}
+[24.870952] (-) TimerEvent: {}
+[24.971491] (-) TimerEvent: {}
+[25.072037] (-) TimerEvent: {}
+[25.172677] (-) TimerEvent: {}
+[25.273368] (-) TimerEvent: {}
+[25.373945] (-) TimerEvent: {}
+[25.474509] (-) TimerEvent: {}
+[25.575096] (-) TimerEvent: {}
+[25.675638] (-) TimerEvent: {}
+[25.776177] (-) TimerEvent: {}
+[25.876740] (-) TimerEvent: {}
+[25.977279] (-) TimerEvent: {}
+[26.077859] (-) TimerEvent: {}
+[26.178554] (-) TimerEvent: {}
+[26.279096] (-) TimerEvent: {}
+[26.379625] (-) TimerEvent: {}
+[26.480181] (-) TimerEvent: {}
+[26.580715] (-) TimerEvent: {}
+[26.681255] (-) TimerEvent: {}
+[26.781829] (-) TimerEvent: {}
+[26.882361] (-) TimerEvent: {}
+[26.982908] (-) TimerEvent: {}
+[27.083455] (-) TimerEvent: {}
+[27.184019] (-) TimerEvent: {}
+[27.284636] (-) TimerEvent: {}
+[27.385087] (-) TimerEvent: {}
+[27.485663] (-) TimerEvent: {}
+[27.586106] (-) TimerEvent: {}
+[27.686555] (-) TimerEvent: {}
+[27.787064] (-) TimerEvent: {}
+[27.887572] (-) TimerEvent: {}
+[27.988089] (-) TimerEvent: {}
+[28.088581] (-) TimerEvent: {}
+[28.189082] (-) TimerEvent: {}
+[28.289614] (-) TimerEvent: {}
+[28.390111] (-) TimerEvent: {}
+[28.490608] (-) TimerEvent: {}
+[28.591089] (-) TimerEvent: {}
+[28.691582] (-) TimerEvent: {}
+[28.792115] (-) TimerEvent: {}
+[28.892942] (-) TimerEvent: {}
+[28.993571] (-) TimerEvent: {}
+[29.094069] (-) TimerEvent: {}
+[29.194643] (-) TimerEvent: {}
+[29.295183] (-) TimerEvent: {}
+[29.395724] (-) TimerEvent: {}
+[29.496269] (-) TimerEvent: {}
+[29.596807] (-) TimerEvent: {}
+[29.697389] (-) TimerEvent: {}
+[29.798152] (-) TimerEvent: {}
+[29.898689] (-) TimerEvent: {}
+[29.999273] (-) TimerEvent: {}
+[30.016501] (data_processor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_subscriber\x1b[0m\n'}
+[30.099455] (-) TimerEvent: {}
+[30.200051] (-) TimerEvent: {}
+[30.300623] (-) TimerEvent: {}
+[30.401166] (-) TimerEvent: {}
+[30.501745] (-) TimerEvent: {}
+[30.602286] (-) TimerEvent: {}
+[30.702871] (-) TimerEvent: {}
+[30.803414] (-) TimerEvent: {}
+[30.870667] (data_processor) StdoutLine: {'line': b'[100%] Built target sensor_subscriber\n'}
+[30.893210] (data_processor) CommandEnded: {'returncode': 0}
+[30.903527] (-) TimerEvent: {}
+[30.964243] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'install'}
+[30.966071] (data_processor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyber/ros2_ws/build/data_processor'], 'cwd': '/home/cyber/ros2_ws/build/data_processor', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1532'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1497,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1497'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/41206536_a6a5_4977_a9fc_24345c72e099'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.187'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RU2RR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/data_processor'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.981240] (data_processor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.000292] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/lib/data_processor/sensor_subscriber\n'}
+[31.003644] (-) TimerEvent: {}
+[31.006887] (data_processor) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/data_processor/lib/data_processor/sensor_subscriber" to ""\n'}
+[31.007262] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/launch\n'}
+[31.007406] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/launch/data_launch.py\n'}
+[31.014135] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/package.xml\n'}
+[31.014631] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/ament_index/resource_index/package_run_dependencies/data_processor\n'}
+[31.014840] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/ament_index/resource_index/parent_prefix_path/data_processor\n'}
+[31.025445] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/ament_prefix_path.sh\n'}
+[31.025904] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/ament_prefix_path.dsv\n'}
+[31.036365] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/path.sh\n'}
+[31.036877] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/path.dsv\n'}
+[31.047393] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.bash\n'}
+[31.047954] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.sh\n'}
+[31.048212] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.zsh\n'}
+[31.048458] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.dsv\n'}
+[31.058559] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/package.dsv\n'}
+[31.059158] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/ament_index/resource_index/packages/data_processor\n'}
+[31.059513] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/cmake/data_processorConfig.cmake\n'}
+[31.059762] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/cmake/data_processorConfig-version.cmake\n'}
+[31.059999] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/package.xml\n'}
+[31.063169] (data_processor) CommandEnded: {'returncode': 0}
+[31.103765] (-) TimerEvent: {}
+[31.136259] (data_processor) JobEnded: {'identifier': 'data_processor', 'rc': 0}
+[31.137761] (-) EventReactorShutdown: {}

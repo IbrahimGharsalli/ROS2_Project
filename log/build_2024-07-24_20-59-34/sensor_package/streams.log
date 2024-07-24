@@ -1,0 +1,31 @@
+[0.418s] Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/sensor_package -- -j4 -l4
+[0.517s] [35m[1mConsolidate compiler generated dependencies of target temperature_publisher[0m
+[0.529s] [35m[1mConsolidate compiler generated dependencies of target pressure_publisher[0m
+[0.538s] [35m[1mConsolidate compiler generated dependencies of target humidity_publisher[0m
+[0.574s] [ 33%] Built target temperature_publisher
+[0.580s] [ 66%] Built target pressure_publisher
+[0.590s] [100%] Built target humidity_publisher
+[0.636s] Invoked command in '/home/cyber/ros2_ws/build/sensor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/sensor_package -- -j4 -l4
+[0.703s] Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/sensor_package
+[0.721s] -- Install configuration: ""
+[0.722s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/temperature_publisher
+[0.723s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/pressure_publisher
+[0.723s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/humidity_publisher
+[0.724s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/launch
+[0.724s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/launch/sensor_launch.py
+[0.725s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/package_run_dependencies/sensor_package
+[0.725s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/parent_prefix_path/sensor_package
+[0.726s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.sh
+[0.728s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.dsv
+[0.729s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/path.sh
+[0.729s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/path.dsv
+[0.730s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.bash
+[0.730s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.sh
+[0.731s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.zsh
+[0.731s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.dsv
+[0.732s] -- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/package.dsv
+[0.733s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/packages/sensor_package
+[0.733s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig.cmake
+[0.733s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig-version.cmake
+[0.734s] -- Up-to-date: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/package.xml
+[0.740s] Invoked command in '/home/cyber/ros2_ws/build/sensor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/sensor_package
