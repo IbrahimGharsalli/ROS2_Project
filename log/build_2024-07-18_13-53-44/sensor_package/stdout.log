@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target humidity_publisher[0m
-[35m[1mConsolidate compiler generated dependencies of target temperature_publisher[0m
-[35m[1mConsolidate compiler generated dependencies of target pressure_publisher[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.o[0m
-[ 33%] [32m[1mLinking CXX executable humidity_publisher[0m
-[ 66%] Built target pressure_publisher
-[ 83%] [32m[1mLinking CXX executable temperature_publisher[0m
-[ 83%] Built target temperature_publisher
