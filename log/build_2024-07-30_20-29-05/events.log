@@ -1,0 +1,515 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (data_processor) JobQueued: {'identifier': 'data_processor', 'dependencies': OrderedDict()}
+[0.001085] (plot_sensor_data) JobQueued: {'identifier': 'plot_sensor_data', 'dependencies': OrderedDict()}
+[0.001168] (rosbridge_server_launch) JobQueued: {'identifier': 'rosbridge_server_launch', 'dependencies': OrderedDict()}
+[0.001203] (sensor_package) JobQueued: {'identifier': 'sensor_package', 'dependencies': OrderedDict()}
+[0.001235] (data_processor) JobStarted: {'identifier': 'data_processor'}
+[0.008314] (plot_sensor_data) JobStarted: {'identifier': 'plot_sensor_data'}
+[0.016182] (rosbridge_server_launch) JobStarted: {'identifier': 'rosbridge_server_launch'}
+[0.021988] (sensor_package) JobStarted: {'identifier': 'sensor_package'}
+[0.030229] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'cmake'}
+[0.030527] (data_processor) Command: {'cmd': ['/usr/bin/cmake', '/home/cyber/ros2_ws/src/data_processor', '-DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/data_processor'], 'cwd': '/home/cyber/ros2_ws/build/data_processor', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/data_processor'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[0.099651] (-) TimerEvent: {}
+[0.200019] (-) TimerEvent: {}
+[0.300378] (-) TimerEvent: {}
+[0.372791] (rosbridge_server_launch) JobProgress: {'identifier': 'rosbridge_server_launch', 'progress': 'cmake'}
+[0.374096] (rosbridge_server_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/cyber/ros2_ws/src/rosbridge_server_launch', '-DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/rosbridge_server_launch'], 'cwd': '/home/cyber/ros2_ws/build/rosbridge_server_launch', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/rosbridge_server_launch'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[0.379874] (sensor_package) JobProgress: {'identifier': 'sensor_package', 'progress': 'cmake'}
+[0.380370] (sensor_package) Command: {'cmd': ['/usr/bin/cmake', '/home/cyber/ros2_ws/src/sensor_package', '-DCMAKE_INSTALL_PREFIX=/home/cyber/ros2_ws/install/sensor_package'], 'cwd': '/home/cyber/ros2_ws/build/sensor_package', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/sensor_package'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[0.400514] (-) TimerEvent: {}
+[0.501003] (-) TimerEvent: {}
+[0.601583] (-) TimerEvent: {}
+[0.606003] (rosbridge_server_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.606346] (data_processor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.606541] (sensor_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.701692] (-) TimerEvent: {}
+[0.789147] (rosbridge_server_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.789577] (sensor_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.796886] (data_processor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.801807] (-) TimerEvent: {}
+[0.807382] (sensor_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.807682] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.815225] (data_processor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901929] (-) TimerEvent: {}
+[1.004134] (-) TimerEvent: {}
+[1.009605] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.009914] (sensor_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.017741] (data_processor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.032353] (sensor_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.032688] (rosbridge_server_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.032858] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.033086] (sensor_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.039470] (data_processor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.040027] (data_processor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.048779] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.049158] (sensor_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.049403] (data_processor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.056085] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.056397] (sensor_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.056911] (data_processor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.104259] (-) TimerEvent: {}
+[1.204638] (-) TimerEvent: {}
+[1.247370] (sensor_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.251820] (data_processor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.253857] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.281561] (data_processor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.281880] (data_processor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.282067] (data_processor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.282405] (rosbridge_server_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.282615] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.282772] (rosbridge_server_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.282923] (data_processor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.286235] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.304761] (-) TimerEvent: {}
+[1.305285] (sensor_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.305733] (sensor_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.306533] (sensor_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.309763] (sensor_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.404906] (-) TimerEvent: {}
+[1.505504] (-) TimerEvent: {}
+[1.606045] (-) TimerEvent: {}
+[1.706632] (-) TimerEvent: {}
+[1.808182] (plot_sensor_data) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/plot_sensor_data', 'build', '--build-base', '/home/cyber/ros2_ws/build/plot_sensor_data/build', 'install', '--record', '/home/cyber/ros2_ws/build/plot_sensor_data/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cyber/ros2_ws/src/plot_sensor_data', 'env': {'USER': 'cyber', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/cyber/ros2_ws/src', 'HOME': '/home/cyber', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/cyber/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '1508', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/cyber/ros2_ws/install', 'LOGNAME': 'cyber', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'cyber', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ar_TN.UTF-8', 'DISPLAY': ':0', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.121', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A3GSR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/cyber/ros2_ws/build/plot_sensor_data', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'ar_TN.UTF-8', 'PYTHONPATH': '/home/cyber/ros2_ws/build/plot_sensor_data/prefix_override:/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor'}, 'shell': False}
+[1.809784] (-) TimerEvent: {}
+[1.910328] (-) TimerEvent: {}
+[2.010963] (-) TimerEvent: {}
+[2.111540] (-) TimerEvent: {}
+[2.188220] (data_processor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.211677] (-) TimerEvent: {}
+[2.217655] (sensor_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.283057] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.311809] (-) TimerEvent: {}
+[2.412306] (-) TimerEvent: {}
+[2.478350] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.478666] (sensor_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.488292] (data_processor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.504631] (plot_sensor_data) StdoutLine: {'line': b'running egg_info\n'}
+[2.505576] (plot_sensor_data) StdoutLine: {'line': b'creating ../../build/plot_sensor_data/plot_sensor_data.egg-info\n'}
+[2.512411] (-) TimerEvent: {}
+[2.548503] (plot_sensor_data) StdoutLine: {'line': b'writing ../../build/plot_sensor_data/plot_sensor_data.egg-info/PKG-INFO\n'}
+[2.549150] (plot_sensor_data) StdoutLine: {'line': b'writing dependency_links to ../../build/plot_sensor_data/plot_sensor_data.egg-info/dependency_links.txt\n'}
+[2.549394] (plot_sensor_data) StdoutLine: {'line': b'writing entry points to ../../build/plot_sensor_data/plot_sensor_data.egg-info/entry_points.txt\n'}
+[2.549654] (plot_sensor_data) StdoutLine: {'line': b'writing requirements to ../../build/plot_sensor_data/plot_sensor_data.egg-info/requires.txt\n'}
+[2.549806] (plot_sensor_data) StdoutLine: {'line': b'writing top-level names to ../../build/plot_sensor_data/plot_sensor_data.egg-info/top_level.txt\n'}
+[2.612541] (-) TimerEvent: {}
+[2.645591] (sensor_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.645943] (data_processor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.646204] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.657407] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.657682] (sensor_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.658244] (data_processor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.676853] (sensor_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.678032] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.680506] (data_processor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.711025] (sensor_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.712358] (rosbridge_server_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.712581] (-) TimerEvent: {}
+[2.716471] (data_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.761275] (sensor_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.764883] (rosbridge_server_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.770883] (data_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.783734] (plot_sensor_data) StdoutLine: {'line': b"writing manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'\n"}
+[2.812720] (-) TimerEvent: {}
+[2.879296] (plot_sensor_data) StdoutLine: {'line': b"reading manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'\n"}
+[2.881072] (plot_sensor_data) StdoutLine: {'line': b"writing manifest file '../../build/plot_sensor_data/plot_sensor_data.egg-info/SOURCES.txt'\n"}
+[2.881383] (plot_sensor_data) StdoutLine: {'line': b'running build\n'}
+[2.881579] (plot_sensor_data) StdoutLine: {'line': b'running build_py\n'}
+[2.881776] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/build/plot_sensor_data/build\n'}
+[2.881997] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/build/plot_sensor_data/build/lib\n'}
+[2.882197] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data\n'}
+[2.882344] (plot_sensor_data) StdoutLine: {'line': b'copying plot_sensor_data/__init__.py -> /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data\n'}
+[2.882521] (plot_sensor_data) StdoutLine: {'line': b'copying plot_sensor_data/plot_node.py -> /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data\n'}
+[2.883029] (plot_sensor_data) StdoutLine: {'line': b'running install\n'}
+[2.898675] (plot_sensor_data) StdoutLine: {'line': b'running install_lib\n'}
+[2.912829] (-) TimerEvent: {}
+[2.940971] (sensor_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.943630] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data\n'}
+[2.944007] (plot_sensor_data) StdoutLine: {'line': b'copying /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data/__init__.py -> /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data\n'}
+[2.944255] (plot_sensor_data) StdoutLine: {'line': b'copying /home/cyber/ros2_ws/build/plot_sensor_data/build/lib/plot_sensor_data/plot_node.py -> /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data\n'}
+[2.945529] (plot_sensor_data) StdoutLine: {'line': b'byte-compiling /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data/__init__.py to __init__.cpython-310.pyc\n'}
+[2.946073] (plot_sensor_data) StdoutLine: {'line': b'byte-compiling /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data/plot_node.py to plot_node.cpython-310.pyc\n'}
+[2.948373] (plot_sensor_data) StdoutLine: {'line': b'running install_data\n'}
+[2.948694] (sensor_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.949004] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/install/plot_sensor_data/share/ament_index\n'}
+[2.949187] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/install/plot_sensor_data/share/ament_index/resource_index\n'}
+[2.949438] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/install/plot_sensor_data/share/ament_index/resource_index/packages\n'}
+[2.949610] (plot_sensor_data) StdoutLine: {'line': b'copying resource/plot_sensor_data -> /home/cyber/ros2_ws/install/plot_sensor_data/share/ament_index/resource_index/packages\n'}
+[2.949843] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.950076] (plot_sensor_data) StdoutLine: {'line': b'copying package.xml -> /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data\n'}
+[2.950384] (plot_sensor_data) StdoutLine: {'line': b'creating /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data/launch\n'}
+[2.950635] (plot_sensor_data) StdoutLine: {'line': b'copying launch/plot_launch.py -> /home/cyber/ros2_ws/install/plot_sensor_data/share/plot_sensor_data/launch\n'}
+[2.950928] (plot_sensor_data) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.955788] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.961582] (data_processor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.967368] (data_processor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.003863] (plot_sensor_data) StdoutLine: {'line': b'Copying ../../build/plot_sensor_data/plot_sensor_data.egg-info to /home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages/plot_sensor_data-0.0.0-py3.10.egg-info\n'}
+[3.005641] (plot_sensor_data) StdoutLine: {'line': b'running install_scripts\n'}
+[3.012937] (-) TimerEvent: {}
+[3.113381] (-) TimerEvent: {}
+[3.114266] (plot_sensor_data) StdoutLine: {'line': b'Installing plot_node script to /home/cyber/ros2_ws/install/plot_sensor_data/lib/plot_sensor_data\n'}
+[3.114994] (plot_sensor_data) StdoutLine: {'line': b"writing list of installed files to '/home/cyber/ros2_ws/build/plot_sensor_data/install.log'\n"}
+[3.160146] (plot_sensor_data) CommandEnded: {'returncode': 0}
+[3.175581] (plot_sensor_data) JobEnded: {'identifier': 'plot_sensor_data', 'rc': 0}
+[3.213555] (-) TimerEvent: {}
+[3.300465] (sensor_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.302811] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.303203] (data_processor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.313668] (-) TimerEvent: {}
+[3.352104] (sensor_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.361260] (data_processor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.368523] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.413798] (-) TimerEvent: {}
+[3.436171] (data_processor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.457916] (sensor_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.467130] (rosbridge_server_launch) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.472034] (data_processor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.472839] (sensor_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.486803] (rosbridge_server_launch) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.513934] (-) TimerEvent: {}
+[3.612758] (data_processor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.613201] (rosbridge_server_launch) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.613655] (data_processor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.613937] (rosbridge_server_launch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.614094] (-) TimerEvent: {}
+[3.621341] (sensor_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.622298] (sensor_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.714251] (-) TimerEvent: {}
+[3.735710] (sensor_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.737453] (sensor_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.759678] (data_processor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.762181] (data_processor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.762955] (rosbridge_server_launch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.765427] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.814382] (-) TimerEvent: {}
+[3.914872] (-) TimerEvent: {}
+[4.014012] (sensor_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.014970] (-) TimerEvent: {}
+[4.115453] (-) TimerEvent: {}
+[4.181121] (data_processor) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.199288] (rosbridge_server_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.215570] (-) TimerEvent: {}
+[4.225074] (sensor_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.316300] (-) TimerEvent: {}
+[4.345309] (sensor_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.345915] (sensor_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/cyber/ros2_ws/src/sensor_package/include\n'}
+[4.346082] (sensor_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.365712] (rosbridge_server_launch) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.367156] (rosbridge_server_launch) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.367337] (sensor_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.368329] (rosbridge_server_launch) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.368559] (sensor_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.369742] (sensor_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.370459] (rosbridge_server_launch) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.371631] (sensor_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.371789] (sensor_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.372600] (sensor_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.381041] (rosbridge_server_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.381273] (sensor_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.388999] (rosbridge_server_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[4.392826] (rosbridge_server_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/cyber/ros2_ws/build/rosbridge_server_launch\n'}
+[4.408219] (rosbridge_server_launch) CommandEnded: {'returncode': 0}
+[4.412171] (rosbridge_server_launch) JobProgress: {'identifier': 'rosbridge_server_launch', 'progress': 'build'}
+[4.412250] (rosbridge_server_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyber/ros2_ws/build/rosbridge_server_launch', '--', '-j4', '-l4'], 'cwd': '/home/cyber/ros2_ws/build/rosbridge_server_launch', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/rosbridge_server_launch'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[4.413234] (sensor_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.415779] (sensor_package) StdoutLine: {'line': b'-- Build files have been written to: /home/cyber/ros2_ws/build/sensor_package\n'}
+[4.416371] (-) TimerEvent: {}
+[4.430079] (sensor_package) CommandEnded: {'returncode': 0}
+[4.431268] (sensor_package) JobProgress: {'identifier': 'sensor_package', 'progress': 'build'}
+[4.431891] (sensor_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyber/ros2_ws/build/sensor_package', '--', '-j4', '-l4'], 'cwd': '/home/cyber/ros2_ws/build/sensor_package', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/sensor_package'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[4.473506] (data_processor) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.479112] (data_processor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.500005] (rosbridge_server_launch) CommandEnded: {'returncode': 0}
+[4.516519] (-) TimerEvent: {}
+[4.524580] (sensor_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/temperature_publisher.dir/src/temperature_publisher.cpp.o\x1b[0m\n'}
+[4.528162] (sensor_package) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.o\x1b[0m\n'}
+[4.529982] (sensor_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pressure_publisher.dir/src/pressure_publisher.cpp.o\x1b[0m\n'}
+[4.616630] (-) TimerEvent: {}
+[4.649252] (rosbridge_server_launch) JobProgress: {'identifier': 'rosbridge_server_launch', 'progress': 'install'}
+[4.667443] (rosbridge_server_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyber/ros2_ws/build/rosbridge_server_launch'], 'cwd': '/home/cyber/ros2_ws/build/rosbridge_server_launch', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/rosbridge_server_launch'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[4.683785] (rosbridge_server_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.684174] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch//launch\n'}
+[4.684362] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch//launch/rosbridge_server_launch.py\n'}
+[4.684605] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/ament_index/resource_index/package_run_dependencies/rosbridge_server_launch\n'}
+[4.684916] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/ament_index/resource_index/parent_prefix_path/rosbridge_server_launch\n'}
+[4.685222] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/ament_prefix_path.sh\n'}
+[4.685457] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/ament_prefix_path.dsv\n'}
+[4.685900] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/path.sh\n'}
+[4.686099] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/environment/path.dsv\n'}
+[4.686284] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.bash\n'}
+[4.686510] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.sh\n'}
+[4.686760] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.zsh\n'}
+[4.686984] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/local_setup.dsv\n'}
+[4.687221] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/package.dsv\n'}
+[4.687531] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/ament_index/resource_index/packages/rosbridge_server_launch\n'}
+[4.687814] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/cmake/rosbridge_server_launchConfig.cmake\n'}
+[4.688021] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/cmake/rosbridge_server_launchConfig-version.cmake\n'}
+[4.688234] (rosbridge_server_launch) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/rosbridge_server_launch/share/rosbridge_server_launch/package.xml\n'}
+[4.698245] (rosbridge_server_launch) CommandEnded: {'returncode': 0}
+[4.701734] (data_processor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.702146] (data_processor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/cyber/ros2_ws/src/data_processor/include\n'}
+[4.702306] (data_processor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.703253] (data_processor) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.704468] (data_processor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.705537] (data_processor) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.711824] (data_processor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.712166] (data_processor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.713086] (data_processor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.716722] (-) TimerEvent: {}
+[4.718836] (data_processor) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.763336] (data_processor) StdoutLine: {'line': b'-- Generating done\n'}
+[4.764802] (rosbridge_server_launch) JobEnded: {'identifier': 'rosbridge_server_launch', 'rc': 0}
+[4.766714] (data_processor) StdoutLine: {'line': b'-- Build files have been written to: /home/cyber/ros2_ws/build/data_processor\n'}
+[4.786546] (data_processor) CommandEnded: {'returncode': 0}
+[4.787357] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'build'}
+[4.787415] (data_processor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyber/ros2_ws/build/data_processor', '--', '-j4', '-l4'], 'cwd': '/home/cyber/ros2_ws/build/data_processor', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/data_processor'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[4.816870] (-) TimerEvent: {}
+[4.888025] (data_processor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_subscriber.dir/src/sensor_subscriber.cpp.o\x1b[0m\n'}
+[4.917016] (-) TimerEvent: {}
+[5.017818] (-) TimerEvent: {}
+[5.118374] (-) TimerEvent: {}
+[5.218929] (-) TimerEvent: {}
+[5.319511] (-) TimerEvent: {}
+[5.420097] (-) TimerEvent: {}
+[5.520720] (-) TimerEvent: {}
+[5.621352] (-) TimerEvent: {}
+[5.721873] (-) TimerEvent: {}
+[5.822374] (-) TimerEvent: {}
+[5.922871] (-) TimerEvent: {}
+[6.023374] (-) TimerEvent: {}
+[6.123887] (-) TimerEvent: {}
+[6.224392] (-) TimerEvent: {}
+[6.324920] (-) TimerEvent: {}
+[6.425441] (-) TimerEvent: {}
+[6.526122] (-) TimerEvent: {}
+[6.626759] (-) TimerEvent: {}
+[6.727445] (-) TimerEvent: {}
+[6.828090] (-) TimerEvent: {}
+[6.928718] (-) TimerEvent: {}
+[7.029352] (-) TimerEvent: {}
+[7.129992] (-) TimerEvent: {}
+[7.230643] (-) TimerEvent: {}
+[7.331263] (-) TimerEvent: {}
+[7.431879] (-) TimerEvent: {}
+[7.535314] (-) TimerEvent: {}
+[7.635960] (-) TimerEvent: {}
+[7.736517] (-) TimerEvent: {}
+[7.837059] (-) TimerEvent: {}
+[7.941587] (-) TimerEvent: {}
+[8.042122] (-) TimerEvent: {}
+[8.142684] (-) TimerEvent: {}
+[8.245580] (-) TimerEvent: {}
+[8.353591] (-) TimerEvent: {}
+[8.454131] (-) TimerEvent: {}
+[8.554672] (-) TimerEvent: {}
+[8.655208] (-) TimerEvent: {}
+[8.757638] (-) TimerEvent: {}
+[8.865800] (-) TimerEvent: {}
+[8.966336] (-) TimerEvent: {}
+[9.066845] (-) TimerEvent: {}
+[9.167218] (-) TimerEvent: {}
+[9.267672] (-) TimerEvent: {}
+[9.368099] (-) TimerEvent: {}
+[9.468478] (-) TimerEvent: {}
+[9.568896] (-) TimerEvent: {}
+[9.669420] (-) TimerEvent: {}
+[9.769940] (-) TimerEvent: {}
+[9.870442] (-) TimerEvent: {}
+[9.970987] (-) TimerEvent: {}
+[10.071500] (-) TimerEvent: {}
+[10.172019] (-) TimerEvent: {}
+[10.272445] (-) TimerEvent: {}
+[10.372955] (-) TimerEvent: {}
+[10.473492] (-) TimerEvent: {}
+[10.574061] (-) TimerEvent: {}
+[10.674449] (-) TimerEvent: {}
+[10.775818] (-) TimerEvent: {}
+[10.876584] (-) TimerEvent: {}
+[10.977203] (-) TimerEvent: {}
+[11.077579] (-) TimerEvent: {}
+[11.177944] (-) TimerEvent: {}
+[11.278380] (-) TimerEvent: {}
+[11.378866] (-) TimerEvent: {}
+[11.479339] (-) TimerEvent: {}
+[11.579862] (-) TimerEvent: {}
+[11.680426] (-) TimerEvent: {}
+[11.781004] (-) TimerEvent: {}
+[11.881599] (-) TimerEvent: {}
+[11.982151] (-) TimerEvent: {}
+[12.082688] (-) TimerEvent: {}
+[12.183228] (-) TimerEvent: {}
+[12.283769] (-) TimerEvent: {}
+[12.384280] (-) TimerEvent: {}
+[12.484832] (-) TimerEvent: {}
+[12.585400] (-) TimerEvent: {}
+[12.685920] (-) TimerEvent: {}
+[12.786432] (-) TimerEvent: {}
+[12.886985] (-) TimerEvent: {}
+[12.987646] (-) TimerEvent: {}
+[13.088317] (-) TimerEvent: {}
+[13.189027] (-) TimerEvent: {}
+[13.289737] (-) TimerEvent: {}
+[13.390406] (-) TimerEvent: {}
+[13.491086] (-) TimerEvent: {}
+[13.591745] (-) TimerEvent: {}
+[13.693577] (-) TimerEvent: {}
+[13.794992] (-) TimerEvent: {}
+[13.895664] (-) TimerEvent: {}
+[13.996310] (-) TimerEvent: {}
+[14.096979] (-) TimerEvent: {}
+[14.197555] (-) TimerEvent: {}
+[14.298095] (-) TimerEvent: {}
+[14.398620] (-) TimerEvent: {}
+[14.499140] (-) TimerEvent: {}
+[14.599678] (-) TimerEvent: {}
+[14.700234] (-) TimerEvent: {}
+[14.800768] (-) TimerEvent: {}
+[14.901284] (-) TimerEvent: {}
+[15.080921] (-) TimerEvent: {}
+[15.181411] (-) TimerEvent: {}
+[15.281903] (-) TimerEvent: {}
+[15.382397] (-) TimerEvent: {}
+[15.483074] (-) TimerEvent: {}
+[15.583728] (-) TimerEvent: {}
+[15.684200] (-) TimerEvent: {}
+[15.785535] (-) TimerEvent: {}
+[15.885929] (-) TimerEvent: {}
+[15.986385] (-) TimerEvent: {}
+[16.086841] (-) TimerEvent: {}
+[16.187297] (-) TimerEvent: {}
+[16.287759] (-) TimerEvent: {}
+[16.388248] (-) TimerEvent: {}
+[16.488732] (-) TimerEvent: {}
+[16.589204] (-) TimerEvent: {}
+[16.689694] (-) TimerEvent: {}
+[16.790159] (-) TimerEvent: {}
+[16.890624] (-) TimerEvent: {}
+[16.991094] (-) TimerEvent: {}
+[17.091556] (-) TimerEvent: {}
+[17.192042] (-) TimerEvent: {}
+[17.292550] (-) TimerEvent: {}
+[17.393045] (-) TimerEvent: {}
+[17.493534] (-) TimerEvent: {}
+[17.594068] (-) TimerEvent: {}
+[17.694611] (-) TimerEvent: {}
+[17.795373] (-) TimerEvent: {}
+[17.895932] (-) TimerEvent: {}
+[17.996507] (-) TimerEvent: {}
+[18.030035] (sensor_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pressure_publisher\x1b[0m\n'}
+[18.030419] (sensor_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable humidity_publisher\x1b[0m\n'}
+[18.030625] (sensor_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable temperature_publisher\x1b[0m\n'}
+[18.096631] (-) TimerEvent: {}
+[18.196986] (-) TimerEvent: {}
+[18.297337] (-) TimerEvent: {}
+[18.397848] (-) TimerEvent: {}
+[18.498380] (-) TimerEvent: {}
+[18.598806] (-) TimerEvent: {}
+[18.699366] (-) TimerEvent: {}
+[18.799747] (-) TimerEvent: {}
+[18.900117] (-) TimerEvent: {}
+[19.000479] (-) TimerEvent: {}
+[19.100834] (-) TimerEvent: {}
+[19.201280] (-) TimerEvent: {}
+[19.301664] (-) TimerEvent: {}
+[19.402165] (-) TimerEvent: {}
+[19.486819] (sensor_package) StdoutLine: {'line': b'[100%] Built target pressure_publisher\n'}
+[19.498622] (sensor_package) StdoutLine: {'line': b'[100%] Built target humidity_publisher\n'}
+[19.502294] (-) TimerEvent: {}
+[19.503216] (sensor_package) StdoutLine: {'line': b'[100%] Built target temperature_publisher\n'}
+[19.520109] (sensor_package) CommandEnded: {'returncode': 0}
+[19.581175] (sensor_package) JobProgress: {'identifier': 'sensor_package', 'progress': 'install'}
+[19.581601] (sensor_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyber/ros2_ws/build/sensor_package'], 'cwd': '/home/cyber/ros2_ws/build/sensor_package', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/sensor_package'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[19.593801] (sensor_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.594186] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/temperature_publisher\n'}
+[19.595761] (sensor_package) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/temperature_publisher" to ""\n'}
+[19.596042] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/pressure_publisher\n'}
+[19.597581] (sensor_package) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/pressure_publisher" to ""\n'}
+[19.597865] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/humidity_publisher\n'}
+[19.599265] (sensor_package) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/sensor_package/lib/sensor_package/humidity_publisher" to ""\n'}
+[19.599575] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/launch\n'}
+[19.599873] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/launch/sensor_launch.py\n'}
+[19.600120] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/package_run_dependencies/sensor_package\n'}
+[19.600365] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/parent_prefix_path/sensor_package\n'}
+[19.600526] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.sh\n'}
+[19.602384] (-) TimerEvent: {}
+[19.617617] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.dsv\n'}
+[19.617990] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/path.sh\n'}
+[19.618295] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/environment/path.dsv\n'}
+[19.618628] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.bash\n'}
+[19.618891] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.sh\n'}
+[19.619067] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.zsh\n'}
+[19.619303] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/local_setup.dsv\n'}
+[19.619480] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/package.dsv\n'}
+[19.619699] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/ament_index/resource_index/packages/sensor_package\n'}
+[19.619942] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig.cmake\n'}
+[19.620112] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig-version.cmake\n'}
+[19.620309] (sensor_package) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/sensor_package/share/sensor_package/package.xml\n'}
+[19.636515] (sensor_package) CommandEnded: {'returncode': 0}
+[19.702134] (sensor_package) JobEnded: {'identifier': 'sensor_package', 'rc': 0}
+[19.702786] (-) TimerEvent: {}
+[19.803112] (-) TimerEvent: {}
+[19.903564] (-) TimerEvent: {}
+[20.004015] (-) TimerEvent: {}
+[20.104447] (-) TimerEvent: {}
+[20.204966] (-) TimerEvent: {}
+[20.305461] (-) TimerEvent: {}
+[20.405851] (-) TimerEvent: {}
+[20.506274] (-) TimerEvent: {}
+[20.606627] (-) TimerEvent: {}
+[20.707057] (-) TimerEvent: {}
+[20.807476] (-) TimerEvent: {}
+[20.907897] (-) TimerEvent: {}
+[21.008252] (-) TimerEvent: {}
+[21.108598] (-) TimerEvent: {}
+[21.208994] (-) TimerEvent: {}
+[21.309420] (-) TimerEvent: {}
+[21.409757] (-) TimerEvent: {}
+[21.510094] (-) TimerEvent: {}
+[21.610428] (-) TimerEvent: {}
+[21.710774] (-) TimerEvent: {}
+[21.811178] (-) TimerEvent: {}
+[21.911599] (-) TimerEvent: {}
+[22.012055] (-) TimerEvent: {}
+[22.112479] (-) TimerEvent: {}
+[22.212922] (-) TimerEvent: {}
+[22.313357] (-) TimerEvent: {}
+[22.413822] (-) TimerEvent: {}
+[22.514214] (-) TimerEvent: {}
+[22.614739] (-) TimerEvent: {}
+[22.715188] (-) TimerEvent: {}
+[22.809943] (data_processor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_subscriber\x1b[0m\n'}
+[22.815369] (-) TimerEvent: {}
+[22.915746] (-) TimerEvent: {}
+[23.016184] (-) TimerEvent: {}
+[23.116730] (-) TimerEvent: {}
+[23.217222] (-) TimerEvent: {}
+[23.317718] (-) TimerEvent: {}
+[23.418190] (-) TimerEvent: {}
+[23.438570] (data_processor) StdoutLine: {'line': b'[100%] Built target sensor_subscriber\n'}
+[23.455217] (data_processor) CommandEnded: {'returncode': 0}
+[23.490847] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'install'}
+[23.491437] (data_processor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyber/ros2_ws/build/data_processor'], 'cwd': '/home/cyber/ros2_ws/build/data_processor', 'env': OrderedDict([('USER', 'cyber'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/cyber/ros2_ws/src'), ('HOME', '/home/cyber'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cyber/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '1508'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cyber/ros2_ws/install'), ('LOGNAME', 'cyber'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'cyber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cyber-Vostro-3500:@/tmp/.ICE-unix/1478,unix/cyber-Vostro-3500:/tmp/.ICE-unix/1478'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/883d7912_8af4_4820_b1cc_e1c42ee1a357'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A3GSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/plot_sensor_data:/home/cyber/ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cyber/ros2_ws/build/data_processor'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('PYTHONPATH', '/home/cyber/ros2_ws/install/plot_sensor_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cyber/ros2_ws/install/sensor_package:/home/cyber/ros2_ws/install/rosbridge_server_launch:/home/cyber/ros2_ws/install/data_processor:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble')]), 'shell': False}
+[23.503069] (data_processor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.503331] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/lib/data_processor/sensor_subscriber\n'}
+[23.507746] (data_processor) StdoutLine: {'line': b'-- Set runtime path of "/home/cyber/ros2_ws/install/data_processor/lib/data_processor/sensor_subscriber" to ""\n'}
+[23.507954] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/launch\n'}
+[23.508084] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/launch/data_launch.py\n'}
+[23.508239] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/package.xml\n'}
+[23.508394] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/ament_index/resource_index/package_run_dependencies/data_processor\n'}
+[23.508574] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/ament_index/resource_index/parent_prefix_path/data_processor\n'}
+[23.508735] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/ament_prefix_path.sh\n'}
+[23.508874] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/ament_prefix_path.dsv\n'}
+[23.509091] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/path.sh\n'}
+[23.509694] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/environment/path.dsv\n'}
+[23.509937] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.bash\n'}
+[23.510174] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.sh\n'}
+[23.510337] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.zsh\n'}
+[23.510575] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/local_setup.dsv\n'}
+[23.510729] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/package.dsv\n'}
+[23.510910] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/ament_index/resource_index/packages/data_processor\n'}
+[23.511138] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/cmake/data_processorConfig.cmake\n'}
+[23.511339] (data_processor) StdoutLine: {'line': b'-- Installing: /home/cyber/ros2_ws/install/data_processor/share/data_processor/cmake/data_processorConfig-version.cmake\n'}
+[23.511555] (data_processor) StdoutLine: {'line': b'-- Up-to-date: /home/cyber/ros2_ws/install/data_processor/share/data_processor/package.xml\n'}
+[23.514157] (data_processor) CommandEnded: {'returncode': 0}
+[23.518305] (-) TimerEvent: {}
+[23.563706] (data_processor) JobEnded: {'identifier': 'data_processor', 'rc': 0}
+[23.564738] (-) EventReactorShutdown: {}
