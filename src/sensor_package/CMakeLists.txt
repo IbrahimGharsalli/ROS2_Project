@@ -19,6 +19,7 @@ ament_target_dependencies(temperature_publisher rclcpp sensor_msgs)
 ament_target_dependencies(pressure_publisher rclcpp sensor_msgs)
 ament_target_dependencies(humidity_publisher rclcpp sensor_msgs)
 
+include_directories(include)
 install(TARGETS
   temperature_publisher
   pressure_publisher

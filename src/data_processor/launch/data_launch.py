@@ -9,11 +9,4 @@ def generate_launch_description():
             name='sensor_subscriber',
             output='screen'
         ),
-        Node(
-            package='data_processor',
-            executable='plot_sensor_data.py',
-            name='plot_sensor_data',
-            output='screen',
-            prefix=['python3 ']
-        ),
     ])
