@@ -2,5 +2,7 @@ build/
 install/
 .vscode/
 log/
-index.html
+/src/.vscode/
+/src/dashboard/index.html
+
 
