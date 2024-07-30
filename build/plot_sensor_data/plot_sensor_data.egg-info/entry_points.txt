@@ -1,2 +1,0 @@
-[console_scripts]
-plot_node = plot_sensor_data.plot_node:main
