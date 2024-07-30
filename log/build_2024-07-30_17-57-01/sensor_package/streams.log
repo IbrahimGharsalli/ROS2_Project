@@ -1,6 +1,0 @@
-[0.525s] Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/sensor_package -- -j4 -l4
-[0.780s] [ 33%] Built target pressure_publisher
-[0.795s] [ 50%] [32mBuilding CXX object CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.o[0m
-[0.949s] [ 83%] Built target temperature_publisher
-[9.956s] [100%] [32m[1mLinking CXX executable humidity_publisher[0m
-[10.735s] [100%] Built target humidity_publisher

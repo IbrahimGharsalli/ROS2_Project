@@ -1,7 +1,0 @@
-[01m[K/home/cyber/ros2_ws/src/data_processor/src/sensor_subscriber.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kdata_processor/sensor_subscriber.hpp: No such file or directory
-   11 | #include [01;31m[K"data_processor/sensor_subscriber.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/sensor_subscriber.dir/build.make:76: CMakeFiles/sensor_subscriber.dir/src/sensor_subscriber.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sensor_subscriber.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

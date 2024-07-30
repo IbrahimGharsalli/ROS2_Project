@@ -1,1 +1,0 @@
-Invoking command in '/home/cyber/ros2_ws/build/sensor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cyber/ros2_ws/install/plot_sensor_data:/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/sensor_package -- -j4 -l4
