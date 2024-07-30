@@ -1,5 +1,6 @@
 build/
 install/
 log/
-src/dashboard/index.html
+index.html
+
 
