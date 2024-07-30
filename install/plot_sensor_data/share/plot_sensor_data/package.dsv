@@ -1,0 +1,6 @@
+source;share/plot_sensor_data/hook/pythonpath.ps1
+source;share/plot_sensor_data/hook/pythonpath.dsv
+source;share/plot_sensor_data/hook/pythonpath.sh
+source;share/plot_sensor_data/hook/ament_prefix_path.ps1
+source;share/plot_sensor_data/hook/ament_prefix_path.dsv
+source;share/plot_sensor_data/hook/ament_prefix_path.sh
