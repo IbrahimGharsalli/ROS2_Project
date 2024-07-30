@@ -1,0 +1,5 @@
+[ 33%] Built target pressure_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/humidity_publisher.dir/src/humidity_publisher.cpp.o[0m
+[ 83%] Built target temperature_publisher
+[100%] [32m[1mLinking CXX executable humidity_publisher[0m
+[100%] Built target humidity_publisher

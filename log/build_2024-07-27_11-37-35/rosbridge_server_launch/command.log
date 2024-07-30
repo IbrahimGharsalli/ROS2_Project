@@ -1,0 +1,4 @@
+Invoking command in '/home/cyber/ros2_ws/build/rosbridge_server_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/rosbridge_server_launch -- -j4 -l4
+Invoked command in '/home/cyber/ros2_ws/build/rosbridge_server_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cyber/ros2_ws/build/rosbridge_server_launch -- -j4 -l4
+Invoking command in '/home/cyber/ros2_ws/build/rosbridge_server_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/rosbridge_server_launch
+Invoked command in '/home/cyber/ros2_ws/build/rosbridge_server_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cyber/ros2_ws/build/rosbridge_server_launch

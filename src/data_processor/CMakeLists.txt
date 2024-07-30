@@ -12,6 +12,9 @@ find_package(rclpy REQUIRED)
 add_executable(sensor_subscriber src/sensor_subscriber.cpp)
 ament_target_dependencies(sensor_subscriber rclcpp sensor_msgs)
 
+
+include_directories(include)
+
 install(TARGETS
   sensor_subscriber
   DESTINATION lib/${PROJECT_NAME})
