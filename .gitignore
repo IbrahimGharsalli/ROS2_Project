@@ -1,7 +1,5 @@
 build/
 install/
 .vscode/
-log/
-/src/.vscode/
-launch/main_launch.py
+
 
