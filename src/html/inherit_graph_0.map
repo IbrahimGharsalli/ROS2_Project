@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,108,108"/>
-<area shape="rect" id="node2" href="$class_humidity_publisher.html" title="A ROS 2 node that publishes humidity data." alt="" coords="167,5,309,32"/>
-<area shape="rect" id="node3" href="$class_pressure_publisher.html" title="ROS 2 node that publishes pressure data." alt="" coords="169,56,307,83"/>
-<area shape="rect" id="node4" href="$class_sensor_subscriber.html" title="A ROS 2 node that subscribes to temperature, humidity, and pressure sensor topics." alt="" coords="171,107,305,133"/>
-<area shape="rect" id="node5" href="$class_temperature_publisher.html" title="A ROS 2 node that publishes temperature data." alt="" coords="156,157,320,184"/>
-</map>
