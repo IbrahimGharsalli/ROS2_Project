@@ -14,7 +14,7 @@ Ubuntu 20.04 (on Windows11 wsl2)
 ROS2 humble
 ## Diagram 
 
-<img src="https://github.com/user-attachments/assets/49ffadc7-fbce-4cac-8c22-e8798454cc85" alt="drawing" width="480"/>  
+<img src="https://github.com/user-attachments/assets/c648d7f2-1a3c-4691-8bb6-bfc578988d84" alt="drawing" width="720"/>  
 
 ## File Structure
 
