@@ -13,6 +13,10 @@ Simple ros2 data centralisation from sensors for a robot navigation purpose.
 Ubuntu 20.04 (on Windows11 wsl2)  
 ROS2 humble
 
+## Diagram 
+
+<img src="https://github.com/user-attachments/assets/bf1f797e-0cd1-4fc8-ae3d-576c124fc12b" alt="drawing" width="720"/>  
+
 ## File Structure
 
 ```plaintext
